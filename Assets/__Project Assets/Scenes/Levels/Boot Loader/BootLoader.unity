@@ -6126,6 +6126,21 @@ PrefabInstance:
       propertyPath: m_allowOverrideAuthentication
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4486794766187402519, guid: eceacfd372a66534eb0e799ff0d58be4,
+        type: 3}
+      propertyPath: m_multiplayerAuthentication
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4486794766187402519, guid: eceacfd372a66534eb0e799ff0d58be4,
+        type: 3}
+      propertyPath: m_chatAuthentication
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4486794766187402519, guid: eceacfd372a66534eb0e799ff0d58be4,
+        type: 3}
+      propertyPath: m_useDeviceUniqueIdentifier
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eceacfd372a66534eb0e799ff0d58be4, type: 3}
 --- !u!1001 &6013839456990291844

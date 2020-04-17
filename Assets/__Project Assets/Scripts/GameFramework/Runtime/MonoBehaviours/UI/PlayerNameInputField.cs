@@ -65,7 +65,7 @@
 			// #Important
 			if (string.IsNullOrEmpty(value))
 			{
-							Debug.LogError("Player Name is null or empty");
+							//Debug.LogError("Player Name is null or empty");
 					return;
 			}
 #if PHOTON_UNITY_NETWORKING

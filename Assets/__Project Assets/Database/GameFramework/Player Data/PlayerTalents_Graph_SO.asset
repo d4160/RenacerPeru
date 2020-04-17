@@ -12,16 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 07a99d4fdda469b448c30ab71474b975, type: 3}
   m_Name: PlayerTalents_Graph_SO
   m_EditorClassIdentifier: 
-  serializedNodes: []
-  edges:
-  - GUID: 97cdbe11-ee4e-4d9d-9f4e-b2e46793977b
-    owner: {fileID: 11400000}
-    inputNodeGUID: bbd62c62-a711-4cc2-8691-7cad18ad73cf
-    outputNodeGUID: 986b47b9-9f21-41d8-a721-7d8c569cfc44
-    inputFieldName: input
-    outputFieldName: output
-    inputPortIdentifier: 
-    outputPortIdentifier: 
+  serializedNodes:
+  - type: d4160.GameFramework.DefaultTalentNode, d4160.GameFramework, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    jsonDatas: '{"GUID":"13887b04-bda7-4787-a750-0450d18bd758","computeOrder":1,"canProcess":true,"position":{"serializedVersion":"2","x":36.11750030517578,"y":-883.9201049804688,"width":368.0,"height":114.39996337890625},"expanded":false,"debug":false,"nodeLock":false,"_actived":false,"_definition":{"instanceID":0}}'
+  edges: []
   groups: []
   stackNodes: []
   pinnedElements:
@@ -46,7 +41,7 @@ MonoBehaviour:
       serializedType: GraphProcessor.ExposedParameterView, com.alelievr.NodeGraphProcessor.Editor,
         Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   exposedParameters: []
-  position: {x: 200, y: 968, z: 0}
-  scale: {x: 0.8695652, y: 0.8695652, z: 1}
+  position: {x: 282.4, y: 872.8, z: 0}
+  scale: {x: 0.7561437, y: 0.7561437, z: 1}
   references:
     version: 1
